@@ -30,7 +30,7 @@ export const ResearcherDashboardPage: React.FC = () => {
   const totalTargetSample = myStudies.reduce((acc, curr) => acc + curr.targetSampleSize, 0);
 
   return (
-    <div className="flex min-h-[calc(100vh-100px)]">
+    <div className="flex flex-col lg:flex-row min-h-[calc(100vh-100px)]">
       <ResearcherSidebar activeTab="overview" />
 
       {/* Main Workspace Content */}

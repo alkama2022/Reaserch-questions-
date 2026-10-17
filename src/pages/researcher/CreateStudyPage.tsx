@@ -252,7 +252,7 @@ export const CreateStudyPage: React.FC = () => {
   };
 
   return (
-    <div className="flex min-h-[calc(100vh-100px)]">
+    <div className="flex flex-col lg:flex-row min-h-[calc(100vh-100px)]">
       <ResearcherSidebar activeTab="create" />
 
       <main className="flex-1 bg-[#F7F9FC] p-4 sm:p-6 lg:p-8 space-y-6 overflow-y-auto max-w-4xl">
