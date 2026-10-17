@@ -1,0 +1,6 @@
+{
+  "name": "ResearchConnect Nigeria",
+  "description": "Web-based research participant recruitment and management platform for Nigerian university students, postgraduate researchers, lecturers, and academic research teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
